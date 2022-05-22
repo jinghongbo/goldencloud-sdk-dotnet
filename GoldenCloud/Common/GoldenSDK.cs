@@ -32,11 +32,11 @@ namespace GoldenCloud.Common
 
         public GoldenSDK(Configs conf)
         {
-#if RELEASE
-            conf.Env = EApiEnv.Prod;
-#else
-            conf.Env = EApiEnv.Test;
-#endif
+//#if RELEASE
+//            conf.Env = EApiEnv.Prod;
+//#else
+//            conf.Env = EApiEnv.Test;
+//#endif
             _conf = conf;
         }
 
